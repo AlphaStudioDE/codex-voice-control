@@ -1,0 +1,8 @@
+- module-name: 'faster_whisper.audio'
+  anti-bloat:
+    - description: 'Package only the NumPy input path used by Codex Voice Control'
+      replacements_plain:
+        'import av': 'av = None'
+        'resampler = av.audio.resampler.AudioResampler(': |-
+          raise NotImplementedError("This build accepts NumPy audio samples only.")
+              resampler = av.audio.resampler.AudioResampler(

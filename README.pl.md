@@ -35,6 +35,21 @@ Instalator zawiera lokalny model mowy i środowisko uruchomieniowe. Panel urucha
 
 Sprawdziliśmy, że zadanie uruchomione przez Harmonogram Windows otwiera wybrany czat także bez wpisu Codexa w `PATH`. Żeby fraza połączyła głos, aplikacja desktopowa Codex musi udostępniać rozmowę głosową w danym czacie.
 
-To repozytorium zawiera opis, instrukcje i wydania binarne. Codex Voice Control jest niezależnym projektem AlphaStudioDE. Nazwa Codex określa aplikację, z którą współpracuje.
+Codex Voice Control jest niezależnym projektem AlphaStudioDE. Nazwa Codex określa aplikację, z którą współpracuje.
 
-[Warunki bety](BETA-TERMS.md) · [Licencje i źródła bibliotek](THIRD_PARTY_NOTICES.md)
+[Licencja MIT](LICENSE) · [Licencje i źródła bibliotek](THIRD_PARTY_NOTICES.md)
+
+## Rozwijanie aplikacji
+
+Kod aplikacji jest w [app/](app/) i jest dostępny na [licencji MIT](LICENSE). Zgłoszenia i pull requesty są mile widziane. Zgłaszając błąd, podaj wersję Windows i Codexa, kroki do odtworzenia oraz przydatne fragmenty logów po usunięciu danych prywatnych.
+
+Na Windows x64 z zainstalowanym `uv` otwórz PowerShell w katalogu repozytorium i wykonaj:
+
+```powershell
+cd app
+.\Przygotuj.cmd
+.\.venv\Scripts\pythonw.exe .\windowed.pyw panel
+.\.venv\Scripts\python.exe -B -m unittest discover -s tests -v
+```
+
+Skrypt przygotowuje zależności Pythona i pobiera lokalny model mowy. Panel znajdziesz w zasobniku Windows. Wymagania i polecenia do budowy znajdziesz w [instrukcji budowania instalatora](BUILD.md).

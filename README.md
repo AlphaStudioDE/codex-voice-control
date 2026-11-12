@@ -33,6 +33,21 @@ The installer includes the local speech model. The panel opens after installatio
 
 We verified that a Windows scheduled task can open the selected Codex chat without a Codex entry in `PATH`. The desktop app must expose voice chat in that conversation for the spoken start phrase to connect.
 
-Codex Voice Control is an independent AlphaStudioDE project. This repository hosts documentation and binary releases.
+Codex Voice Control is an independent AlphaStudioDE project.
 
-[Beta terms](BETA-TERMS.md) · [Third-party notices and source](THIRD_PARTY_NOTICES.md)
+[MIT License](LICENSE) · [Third-party notices and source](THIRD_PARTY_NOTICES.md)
+
+## Develop from source
+
+The application code is in [app/](app/) and is available under the [MIT License](LICENSE). Issues and pull requests are welcome. For bug reports, include the Windows and Codex versions, reproduction steps and any relevant logs with private details removed.
+
+On Windows x64 with `uv` installed, open PowerShell in the repository and run:
+
+```powershell
+cd app
+.\Przygotuj.cmd
+.\.venv\Scripts\pythonw.exe .\windowed.pyw panel
+.\.venv\Scripts\python.exe -B -m unittest discover -s tests -v
+```
+
+Setup installs the Python dependencies and downloads the local speech model. The panel opens in the Windows system tray. For packaging prerequisites and commands, see [Building the installer](BUILD.md).

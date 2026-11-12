@@ -1,0 +1,11 @@
+.venv/
+.python/
+.models/
+.runtime/
+__pycache__/
+*.py[cod]
+*.lnk
+*.exe
+*.dll
+distribution.build/
+distribution.dist/

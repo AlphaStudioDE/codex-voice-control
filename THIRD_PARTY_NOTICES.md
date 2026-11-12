@@ -15,3 +15,5 @@ Codex Voice Control is distributed separately from the third-party components li
 The SoXR extension is a separate file at `app/soxr/soxr_ext.pyd`. It may be replaced with a compatible build. The terms for the application do not restrict modification of LGPL components or reverse engineering for debugging such modifications.
 
 The CTranslate2 CPU build uses the upstream source, including its pinned `spdlog`, `cpu_features` and `ruy` submodules. Build it with MSVC using `-DBUILD_SHARED_LIBS=ON -DBUILD_CLI=OFF -DBUILD_TESTS=OFF -DWITH_MKL=OFF -DWITH_DNNL=OFF -DWITH_RUY=ON -DWITH_CUDA=OFF -DOPENMP_RUNTIME=NONE`. The bundled DLL is built in Release configuration.
+
+The compatibility table app/codex_voice_labels.json contains short control names used to identify voice buttons in the OpenAI Codex desktop interface.

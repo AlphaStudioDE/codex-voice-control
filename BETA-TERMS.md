@@ -1,5 +1,5 @@
-# Beta use
+# Beta licensing
 
-Copyright © 2026 AlphaStudioDE. You may download, install and use this beta free of charge. The source code for Codex Voice Control is reserved by its copyright holder.
+Copyright © 2026 AlphaStudioDE. Codex Voice Control's own code is available under the [MIT License](LICENSE).
 
-Third-party components remain available under their own licenses. Nothing in these terms limits rights granted by those licenses. See [Third-party software](THIRD_PARTY_NOTICES.md).
+Bundled dependencies and model files remain under their respective licenses. See [Third-party software](THIRD_PARTY_NOTICES.md).
