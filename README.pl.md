@@ -17,9 +17,15 @@ Codex Voice Control to niezależna aplikacja dla Windows. Ustaw własne komendy 
 - **Nakładkę i dźwięki.** Fala zmienia kolor w zależności od stanu rozmowy. Dźwięki połączenia, rozłączenia i gotowej odpowiedzi ustawisz osobno.
 - **Powiadomienia MCP.** Opcjonalna integracja pozwala Codexowi zasygnalizować zakończenie zadania, również gdy rozmowa głosowa jest zamknięta.
 
+## Automatyczny odczyt
+
+**Automatyczny odczyt jest domyślnie włączony.** Gdy Codex zaczyna pracować nad poleceniem głosowym, Codex Voice Control rozłącza głos, a Codex pracuje dalej. Kiedy odpowiedź jest gotowa, aplikacja wznawia głos w tym samym czacie i prosi Codexa o ponowne przeczytanie odpowiedzi na głos.
+
+Opcję wyłączysz w **Ustawienia → Czat docelowy**. Fraza kończąca anuluje również oczekujące ponowne połączenie. Automatyczny odczyt obsługuje angielski i polski interfejs desktopowego Codexa.
+
 ## Pierwsze uruchomienie
 
-1. Pobierz instalator z wydania [Beta 1](https://github.com/AlphaStudioDE/codex-voice-control/releases/tag/v0.1.0-beta.1). Potrzebujesz 64-bitowego Windowsa, mikrofonu i aplikacji Codex z dostępem do rozmów głosowych.
+1. Pobierz instalator z wydania [Beta 2](https://github.com/AlphaStudioDE/codex-voice-control/releases/tag/v0.1.0-beta.2). Potrzebujesz 64-bitowego Windowsa, mikrofonu i aplikacji Codex z dostępem do rozmów głosowych.
 2. Otwórz Codex Voice Control ze skrótu na pulpicie. W menu ikony obok zegara wybierz **Ustawienia**, ustaw język oraz frazy i włącz nasłuch.
 3. Wybierz czat w Codexie. W polskiej konfiguracji powiedz **„Friday, jesteś?”**. Po połączeniu mów normalnie. Rozmowę zakończ słowami **„bez odbioru”**.
 

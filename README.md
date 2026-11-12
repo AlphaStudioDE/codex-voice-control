@@ -15,9 +15,15 @@ Codex Voice Control is an independent Windows companion built to help you conser
 - **A waveform you can click through.** The thin overlay responds to voice activity and leaves the controls underneath accessible.
 - **Distinct sound cues.** Choose sounds for connection, disconnection and finished replies. Optional MCP notifications can tell you when a background task is ready.
 
+## Automatic readback
+
+**Automatic readback is enabled by default.** When Codex starts working on a spoken request, Codex Voice Control disconnects voice while Codex continues the task. When the answer is ready, the app reconnects in the same chat and asks Codex to read the answer aloud again.
+
+Turn it off in **Settings → Target chat**. Your stop phrase also cancels a pending reconnection. Automatic readback supports the English and Polish Codex desktop interfaces.
+
 ## Getting started
 
-1. Download the **Windows x64 installer** from [Beta 1](https://github.com/AlphaStudioDE/codex-voice-control/releases/tag/v0.1.0-beta.1). You need a microphone and the Codex desktop app with voice chat available on your account.
+1. Download the **Windows x64 installer** from [Beta 2](https://github.com/AlphaStudioDE/codex-voice-control/releases/tag/v0.1.0-beta.2). You need a microphone and the Codex desktop app with voice chat available on your account.
 2. Open **Codex Voice Control** from the desktop shortcut. In the system tray, open **Settings**, choose your phrases and enable listening.
 3. Say your start phrase and wait for the connection cue. Say your stop phrase when you finish. For the Polish defaults, use **“Friday, jesteś?”** and **“bez odbioru”**.
 
