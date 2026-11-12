@@ -6,7 +6,7 @@
 
 **Keep Codex voice within reach without keeping a voice chat open all day.**
 
-Codex Voice Control is an independent Windows companion built to help you conserve your Codex usage allowance. It listens locally for your chosen phrases, so you can open a voice chat when you need it and close it with a spoken command. The aim is to reduce usage from leaving a live voice connection open between conversations. Actual usage depends on how Codex meters voice and how long you keep each session open.
+Codex Voice Control is an independent Windows companion built to help you conserve your Codex usage allowance. It listens locally for your chosen phrases, so you can open a voice chat when you need it and close it with a spoken command. Desktop voice is billed by time from the same usage budget as Codex tasks. Keeping the connection closed between conversations reduces the time spent in voice. The model that handles your work has its own token rates. [OpenAI usage and pricing](https://learn.chatgpt.com/docs/pricing#how-much-does-voice-cost)
 
 ## Talk when you need to
 

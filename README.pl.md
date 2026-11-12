@@ -6,7 +6,7 @@
 
 **Miej głos Codexa pod ręką bez zostawiania otwartej rozmowy przez cały dzień.**
 
-Aplikacja powstała, żeby oszczędzać limit użycia Codexa. Czeka lokalnie na Twoją frazę, więc możesz otworzyć połączenie na czas rozmowy i zakończyć je poleceniem głosowym. Chodzi o ograniczenie zużycia związanego z pozostawianiem otwartego połączenia między rozmowami. Faktyczne zużycie zależy od sposobu rozliczania głosu przez Codexa i czasu trwania sesji.
+Aplikacja powstała, żeby oszczędzać limit użycia Codexa. Czeka lokalnie na Twoją frazę, więc możesz otworzyć połączenie na czas rozmowy i zakończyć je poleceniem głosowym. Głos w aplikacji desktopowej jest rozliczany za czas z tej samej puli co zadania Codexa. Zamykając połączenie między rozmowami, skracasz czas w trybie głosowym. Model wykonujący zadanie ma osobną stawkę za tokeny. [Rozliczanie głosu w dokumentacji OpenAI](https://learn.chatgpt.com/docs/pricing#how-much-does-voice-cost)
 
 Codex Voice Control to niezależna aplikacja dla Windows. Ustaw własne komendy głosowe, wybierz czat i używaj Codexa głosem, gdy masz ręce zajęte. Wąska nakładka u góry ekranu pokazuje stan rozmowy i reaguje na głos. Kliknięcia przechodzą przez nią do aplikacji pod spodem.
 
