@@ -19,7 +19,7 @@ Codex Voice Control to niezależna aplikacja dla Windows. Ustaw własne komendy 
 
 ## Pierwsze uruchomienie
 
-1. Pobierz instalator z [GitHub Releases](https://github.com/AlphaStudioDE/codex-voice-control/releases), gdy wydanie testowe będzie dostępne. Potrzebujesz 64-bitowego Windowsa, mikrofonu i aplikacji Codex z dostępem do rozmów głosowych.
+1. Pobierz instalator z wydania [Beta 1](https://github.com/AlphaStudioDE/codex-voice-control/releases/tag/v0.1.0-beta.1). Potrzebujesz 64-bitowego Windowsa, mikrofonu i aplikacji Codex z dostępem do rozmów głosowych.
 2. Otwórz Codex Voice Control ze skrótu na pulpicie. W menu ikony obok zegara wybierz **Ustawienia**, ustaw język oraz frazy i włącz nasłuch.
 3. Wybierz czat w Codexie. W polskiej konfiguracji powiedz **„Friday, jesteś?”**. Po połączeniu mów normalnie. Rozmowę zakończ słowami **„bez odbioru”**.
 
@@ -27,7 +27,7 @@ Instalator zawiera lokalny model mowy i środowisko uruchomieniowe. Panel urucha
 
 ## Status wersji testowej
 
-Wybór konkretnego czatu w tle zależy od tego, czy nasłuch może odnaleźć lokalną instalację Codexa. W testach na Windows nasłuch uruchamiany przez autostart rozpoznał frazę startową, ale w jednej konfiguracji nie znalazł Codexa. Opis błędu powinien zawierać wersję Windowsa, wersję Codexa oraz kilka istotnych linii logu z pominięciem prywatnych danych.
+Sprawdziliśmy, że zadanie uruchomione przez Harmonogram Windows otwiera wybrany czat także bez wpisu Codexa w `PATH`. Żeby fraza połączyła głos, aplikacja desktopowa Codex musi udostępniać rozmowę głosową w danym czacie.
 
 To repozytorium zawiera opis, instrukcje i wydania binarne. Codex Voice Control jest niezależnym projektem AlphaStudioDE. Nazwa Codex określa aplikację, z którą współpracuje.
 

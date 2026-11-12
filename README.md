@@ -17,7 +17,7 @@ Codex Voice Control is an independent Windows companion built to help you conser
 
 ## Getting started
 
-1. Download the **Windows x64 installer** from [GitHub Releases](https://github.com/AlphaStudioDE/codex-voice-control/releases) when the public beta becomes available. You need a microphone and the Codex desktop app with voice chat available on your account.
+1. Download the **Windows x64 installer** from [Beta 1](https://github.com/AlphaStudioDE/codex-voice-control/releases/tag/v0.1.0-beta.1). You need a microphone and the Codex desktop app with voice chat available on your account.
 2. Open **Codex Voice Control** from the desktop shortcut. In the system tray, open **Settings**, choose your phrases and enable listening.
 3. Say your start phrase and wait for the connection cue. Say your stop phrase when you finish. For the Polish defaults, use **“Friday, jesteś?”** and **“bez odbioru”**.
 
@@ -25,6 +25,8 @@ The installer includes the local speech model. The panel opens after installatio
 
 ## Beta status
 
-Background launch of a specific chat is being verified on Windows. Codex Voice Control is an independent AlphaStudioDE project. This repository hosts documentation and binary releases.
+We verified that a Windows scheduled task can open the selected Codex chat without a Codex entry in `PATH`. The desktop app must expose voice chat in that conversation for the spoken start phrase to connect.
+
+Codex Voice Control is an independent AlphaStudioDE project. This repository hosts documentation and binary releases.
 
 [Beta terms](BETA-TERMS.md) · [Third-party notices and source](THIRD_PARTY_NOTICES.md)
