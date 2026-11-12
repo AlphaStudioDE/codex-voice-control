@@ -26,3 +26,5 @@ The installer includes the local speech model. The panel opens after installatio
 ## Beta status
 
 Background launch of a specific chat is being verified on Windows. Codex Voice Control is an independent AlphaStudioDE project. This repository hosts documentation and binary releases.
+
+[Beta terms](BETA-TERMS.md) · [Third-party notices and source](THIRD_PARTY_NOTICES.md)

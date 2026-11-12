@@ -30,3 +30,5 @@ Instalator zawiera lokalny model mowy i środowisko uruchomieniowe. Panel urucha
 Wybór konkretnego czatu w tle zależy od tego, czy nasłuch może odnaleźć lokalną instalację Codexa. W testach na Windows nasłuch uruchamiany przez autostart rozpoznał frazę startową, ale w jednej konfiguracji nie znalazł Codexa. Opis błędu powinien zawierać wersję Windowsa, wersję Codexa oraz kilka istotnych linii logu z pominięciem prywatnych danych.
 
 To repozytorium zawiera opis, instrukcje i wydania binarne. Codex Voice Control jest niezależnym projektem AlphaStudioDE. Nazwa Codex określa aplikację, z którą współpracuje.
+
+[Warunki bety](BETA-TERMS.md) · [Licencje i źródła bibliotek](THIRD_PARTY_NOTICES.md)

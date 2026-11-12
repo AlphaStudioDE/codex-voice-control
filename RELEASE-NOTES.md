@@ -1,9 +1,9 @@
-## Codex Voice Control 0.1.0 beta 1
+## Codex Voice Control 0.1.0 Beta 1
 
-Pierwsza wersja testowa dla Windows x64. Instalator zawiera model rozpoznawania fraz, dodaje skrót na pulpicie i uruchamia panel przy logowaniu.
+An independent Windows x64 companion for opening and closing Codex voice chats with spoken commands. It helps you manage your Codex usage allowance by making it easy to close voice between conversations.
 
-- Własne frazy startu i zakończenia, osobny język menu i rozpoznawania.
-- Nakładka reagująca na głos, wybór czatu oraz konfigurowalne dźwięki.
-- Opcjonalne powiadomienia z Codexa przez MCP.
+- Choose your start and stop phrases, recognition language and target chat.
+- See voice activity in a click-through waveform and customize the sound cues.
+- Install offline with the bundled local speech model. The installer adds a desktop shortcut and starts the panel at sign-in.
 
-**Znane ograniczenie:** nasłuch uruchomiony w tle może nie odnaleźć Codexa przy próbie otwarcia wybranego czatu. Próba otwarcia i zakończenia rozmowy na żywo pozostaje do potwierdzenia.
+See the [English guide](https://github.com/AlphaStudioDE/codex-voice-control/blob/main/README.md), [polską instrukcję](https://github.com/AlphaStudioDE/codex-voice-control/blob/main/README.pl.md) and [third-party notices](https://github.com/AlphaStudioDE/codex-voice-control/blob/main/THIRD_PARTY_NOTICES.md).
